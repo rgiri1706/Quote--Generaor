@@ -46,6 +46,30 @@ body {
     font-style: italic;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+button{
+    border-radius: 10px;
+    background: #333;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 0.5rem 1.8rem;
+    outline: none;
+    box-shadow: 0 0.1rem rgba(121, 121, 121, 0.65);
+}
+
+button:hover{
+    filter: brightness(110%);
+}
+
+.twitter-button:hover{
+    color: #38a1f3;
+}
+
 @media screen and (max-width: 1000px){
     .quote-conatiner{
         margin: auto 10px;
